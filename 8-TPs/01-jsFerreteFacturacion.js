@@ -55,7 +55,7 @@ function PrecioFinal ()
 	var precioFinal;
 	
 	precioUno=txtIdPrecioUno.value;
-	productoUno=parseInt(precioUno);
+	precioUno=parseInt(precioUno);
 	
 	precioDos=txtIdPrecioDos.value;
 	precioDos=parseInt(precioDos);
@@ -63,11 +63,11 @@ function PrecioFinal ()
 	precioTres=txtIdPrecioTres.value;
 	precioTres=parseInt(precioTres);
 	
-	suma=(precioUno+precioDos+precioTres);//sumar precios
+	suma=precioUno+precioDos+precioTres; //sumar precios
 
-	iva=suma*21/100;//calculo IVA
+	iva=suma*21/100; //agrego el IVA al precio anterior
 
-	precioFinal=suma+iva;//agrego el IVA al precio anterior
+	precioFinal=suma+iva;
 	
 	alert("el precio con IVA es "+precioFinal);
 
