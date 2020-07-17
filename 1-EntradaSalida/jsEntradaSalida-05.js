@@ -5,6 +5,23 @@ function mostrar()
 {	
 	var nombreIngresado;
 	var edadIngresada;
+
+	nombreIngresado=txtIdNombre.value;
+
+	edadIngresada=txtIdEdad.value;
+
+	alert("Usted es "+nombreIngresado+ " y tiene "+edadIngresada+" años");
+
+
+
+
+
+
+
+
+	/* 
+	var nombreIngresado;
+	var edadIngresada;
 	
 	nombreIngresado=txtIdNombre.value;
 	edadIngresada=txtIdEdad.value;
