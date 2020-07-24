@@ -18,5 +18,6 @@ function mostrar()
 			break;
 		case "Cataratas":
 			alert("Norte");
+			break;
 	}
 }//FIN DE LA FUNCIÓN
