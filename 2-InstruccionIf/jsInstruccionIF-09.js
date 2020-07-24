@@ -1,6 +1,9 @@
+//Gnarini Celina Ejercicio 9
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var numeroGenerado;
 
+	numeroGenerado=Math.floor(Math.random()*10)+1;
+
+	alert(numeroGenerado);
 }//FIN DE LA FUNCIÓN
